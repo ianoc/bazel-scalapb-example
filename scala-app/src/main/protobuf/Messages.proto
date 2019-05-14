@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package org.example;
+
+import "protobuf/scalapb/scalapb.proto";
+
+option (scalapb.options) = {
+  import: "org.example.converters.ProtobufWrappers._"
+};
+
+message AuthenticatedData {
+    string accountId = 1 [(scalapb.field).type = "java.util.UUID"];
+    string createdAt = 2 [(scalapb.field).type = "java.time.LocalDateTime"];
+    string gender    = 3 [(scalapb.field).type = "org.example.domain.Gender.Gender"];
+}

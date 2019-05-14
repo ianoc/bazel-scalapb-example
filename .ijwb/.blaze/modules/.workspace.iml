@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="Blaze" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../../scala-app/src/main/scala" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../.." />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-genfiles" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-scalapb-bug-repro" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../bazel-testlogs" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="com_thesamet_scalapb_scalapb_runtime_2_12_91f4272f" level="project" />
+    <orderEntry type="library" name="scala-library-2.12.8_1798c1ef" level="project" />
+    <orderEntry type="library" name="com_lihaoyi_fastparse_2_12_e59c9cba" level="project" />
+    <orderEntry type="library" name="scala-parser-combinators_2.12-1.0.4_6e9c8fe3" level="project" />
+    <orderEntry type="library" name="scala-xml_2.12-1.0.5_4459274b" level="project" />
+    <orderEntry type="library" name="scala-compiler-2.12.8_84a6f5eb" level="project" />
+    <orderEntry type="library" name="com_google_protobuf_protobuf_java-ijar_f77fff22" level="project" />
+    <orderEntry type="library" name="scala-reflect-2.12.8_4e6073f1" level="project" />
+    <orderEntry type="library" name="com_lihaoyi_fastparse_utils_2_12_f00f4c88" level="project" />
+    <orderEntry type="library" name="scala_library_fe81acf" level="project" />
+    <orderEntry type="library" name="com_lihaoyi_sourcecode_2_12_2ea70f39" level="project" />
+    <orderEntry type="library" name="libprotobuf_java_60b0aeb6" level="project" />
+    <orderEntry type="library" name="com_thesamet_scalapb_lenses_2_12_3cd98986" level="project" />
+    <orderEntry type="library" name="Bundled Protobuf Distribution" level="application" />
+  </component>
+</module>
