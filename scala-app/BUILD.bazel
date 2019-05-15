@@ -9,6 +9,7 @@ proto_library(
 
 scala_library(
     name = "messages_proto_support_lib",
+    visibility = [ "//visibility:public" ],
     srcs = [
         "src/main/scala/org/example/domain/Gender.scala",
         "src/main/scala/org/example/converters/ProtobufWrappers.scala",
@@ -20,7 +21,7 @@ scala_library(
 
 scalapb_proto_library(
     name = "messages_scala_proto",
-    visibility = ["//visibility:public"],
+    visibility = [ "//visibility:public" ],
     deps = [
         ":messages_proto_support_lib",
         ":messages_proto",

@@ -4,7 +4,10 @@ scala_proto_toolchain(
     name = "scala_proto_toolchain_configuration",
     with_grpc = True,
     with_flat_package = True,
-    visibility = ["//visibility:public"],
+    visibility = [ "//visibility:public" ],
+    implicit_compile_deps = [
+        "//scala-app:messages_proto_support_lib"
+    ]
 )
 
 toolchain(
